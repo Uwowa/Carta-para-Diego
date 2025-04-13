@@ -5,12 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cartita para Diego</title>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="envelope" onclick="this.classList.toggle('open')">
-    <div class="message">
-      <p>Hola, mi Dieguito precioso… Sé que ahora estamos enfermitos y lejos, pero quería dejarte esta cartita para recordarte que te amo muchísimo. Te extraño con todo mi corazoncito y cada estrellita y corazoncito flotando acá son como mis pensamientos bonitos para ti. Nos vamos a ver muy pronto, y cuando eso pase, te voy a abrazar tan fuerte que el mundo va a suspirar de ternura.</p>
+  <div class="envelope-container">
+    <img class="envelope">
+    <div class="heart-container">
+      <img class="heart" src="media/heart.png" alt="Corazón">
+    <div class="message hidden">
+      <p>Hola mi cuchurrumino! Te hice una cartita para decirte que te amo mucho mucho y que quiero puro verte!!! ñau!!! ♥</p>
     </div>
   </div>
 
@@ -21,9 +24,11 @@
   </div>
 
   <div class="hearts">
-    <div class="heart" style="left: 20%; animation-delay: 1s;"></div>
+    <img src="media/cora.png" class="heart" style="left: 20%; animation-delay: 1s;"></div>
     <div class="heart" style="left: 50%; animation-delay: 3s;"></div>
     <div class="heart" style="left: 80%; animation-delay: 5s;"></div>
   </div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
